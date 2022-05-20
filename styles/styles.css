@@ -1,0 +1,31 @@
+:root {
+  --text-color-main: #212121;
+  --text-color-secondary: #757575;
+  --text-colot-accent: #2196f3;
+  --bgc-color-main: #e5e5e5;
+  --bgc-color-secondary: #f5f4fa;
+}
+
+body {
+  /* font-family: 'Raleway', sans-serif; */
+  font-family: "Roboto", sans-serif;
+}
+
+.current-page {
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ========================STUDIO====================== */
+
+/* ========================HEADER====================== */
+/* ========================MAIN====================== */
+/* ========================FOOTER====================== */
+
+/* ========================PORTFOLIO====================== */
