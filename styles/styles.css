@@ -19,7 +19,16 @@ body {
   text-decoration: none;
 }
 
-/* ========================///STUDIO///====================== */
+/* Hiding class, making content visible only to screen readers but not visually */
+.hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
 /* ========================HEADER====================== */
 .header {
@@ -61,6 +70,36 @@ body {
   color: var(--text-color-secondary);
 }
 
+/* ========================FOOTER====================== */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-alt {
+  color: #fff;
+}
+
+.address-street > .footer-link {
+  color: #fff;
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--text-colot-accent);
+  cursor: pointer;
+}
+
+/* ========================/// STUDIO ///====================== */
+
 /* ========================MAIN====================== */
 
 /* ========================HERO====================== */
@@ -82,6 +121,7 @@ body {
 .hero-btn {
   color: #fff;
   background-color: var(--text-colot-accent);
+  cursor: pointer;
 }
 
 /* ========================PREFERENCES====================== */
@@ -103,10 +143,6 @@ body {
 }
 
 /* ========================На каких устройствах мы работаем====================== */
-
-/* .whatdowedo {
-  background-color: var(--bgc-color-main);
-} */
 
 .whatdowedo-header,
 .our-team-header {
@@ -138,32 +174,39 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* ========================FOOTER====================== */
+/* ========================/// PORTFOLIO ///====================== */
 
-.footer {
-  background-color: #2f303a;
-}
-
-.logo-alt {
-  color: #fff;
-}
-
-.address-street > .footer-link {
-  color: #fff;
-}
-
-.footer-link {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+.filter-btn {
+  color: var(--text-color-main);
+  background-color: var(--bgc-color-secondary);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link:hover,
-.footer-link:focus {
-  color: var(--text-colot-accent);
-  cursor: pointer;
+.filter-btn:hover,
+.filter-btn:focus {
+  color: #fff;
+  background-color: var(--text-colot-accent);
 }
 
-/* ========================PORTFOLIO====================== */
+.gallery-list {
+}
+
+.gallery-item {
+}
+.gallery-card {
+}
+.card-name {
+  color: var(--text-color-main);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.card-filter {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
