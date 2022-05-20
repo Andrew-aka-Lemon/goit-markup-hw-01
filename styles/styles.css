@@ -2,8 +2,11 @@
   --text-color-main: #212121;
   --text-color-secondary: #757575;
   --text-colot-accent: #2196f3;
+  --text-color-alt: #fff;
+  --logo-color: #000;
   --bgc-color-main: #e5e5e5;
   --bgc-color-secondary: #f5f4fa;
+  --btn-color-focus: #188ce8;
 }
 
 body {
@@ -32,10 +35,10 @@ body {
 
 /* ========================HEADER====================== */
 .header {
-  background-color: #fff;
+  background-color: var(--text-color-alt);
 }
 .logo {
-  color: #000;
+  color: --logo-color;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -77,11 +80,11 @@ body {
 }
 
 .logo-alt {
-  color: #fff;
+  color: var(--text-color-alt);
 }
 
 .address-street > .footer-link {
-  color: #fff;
+  color: var(--text-color-alt);
 }
 
 .footer-link {
@@ -107,9 +110,10 @@ body {
 .hero {
   background-color: #2f303a;
 }
+/* змінну кольору не ставлю, так як явно у Героя буде інший контент */
 
 .hero-title {
-  color: #fff;
+  color: var(--text-color-alt);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -119,9 +123,14 @@ body {
 }
 
 .hero-btn {
-  color: #fff;
+  color: var(--text-color-alt);
   background-color: var(--text-colot-accent);
   cursor: pointer;
+}
+
+.hero-btn:focus,
+.hero-btn:hover {
+  background-color: var(--btn-color-focus);
 }
 
 /* ========================PREFERENCES====================== */
@@ -158,6 +167,10 @@ body {
   background-color: var(--bgc-color-secondary);
 }
 
+.our-team-item {
+  background-color: var(--text-color-alt);
+}
+
 .our-team-name {
   color: var(--text-color-main);
   font-weight: 500;
@@ -189,7 +202,7 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #fff;
+  color: var(--text-color-alt);
   background-color: var(--text-colot-accent);
 }
 
