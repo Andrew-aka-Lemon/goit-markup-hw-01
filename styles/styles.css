@@ -184,6 +184,7 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -192,13 +193,10 @@ body {
   background-color: var(--text-colot-accent);
 }
 
-.gallery-list {
+.gallery-card {
+  color: inherit;
 }
 
-.gallery-item {
-}
-.gallery-card {
-}
 .card-name {
   color: var(--text-color-main);
   font-size: 18px;
@@ -206,6 +204,7 @@ body {
   letter-spacing: 0.06em;
 }
 .card-filter {
+  color: inherit;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
