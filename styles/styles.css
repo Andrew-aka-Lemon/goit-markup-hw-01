@@ -7,11 +7,8 @@
 }
 
 body {
-  /* font-family: 'Raleway', sans-serif; */
   font-family: "Roboto", sans-serif;
-}
-
-.current-page {
+  color: var(--text-color-secondary);
 }
 
 .list {
@@ -22,10 +19,151 @@ body {
   text-decoration: none;
 }
 
-/* ========================STUDIO====================== */
+/* ========================///STUDIO///====================== */
 
 /* ========================HEADER====================== */
+.header {
+  background-color: #fff;
+}
+.logo {
+  color: #000;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo-accent {
+  color: var(--text-colot-accent);
+}
+
+.header-link,
+.header-contacts {
+  color: var(--text-color-main);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.header-link:focus,
+.contacts-link:focus,
+.header-link:hover,
+.contacts-link:hover {
+  color: var(--text-colot-accent);
+  cursor: pointer;
+}
+
+.current-page {
+  color: var(--text-colot-accent);
+}
+.contacts-link {
+  color: var(--text-color-secondary);
+}
+
 /* ========================MAIN====================== */
+
+/* ========================HERO====================== */
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  color: #fff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  color: #fff;
+  background-color: var(--text-colot-accent);
+}
+
+/* ========================PREFERENCES====================== */
+/* .preferences {
+  background-color: var(--bgc-color-main);
+} */
+
+.preferences-header {
+  color: var(--text-color-main);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.preferences-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/* ========================На каких устройствах мы работаем====================== */
+
+/* .whatdowedo {
+  background-color: var(--bgc-color-main);
+} */
+
+.whatdowedo-header,
+.our-team-header {
+  color: var(--text-color-main);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* ========================our-team====================== */
+.our-team {
+  background-color: var(--bgc-color-secondary);
+}
+
+.our-team-name {
+  color: var(--text-color-main);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.our-team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
 /* ========================FOOTER====================== */
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-alt {
+  color: #fff;
+}
+
+.address-street > .footer-link {
+  color: #fff;
+}
+
+.footer-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--text-colot-accent);
+  cursor: pointer;
+}
 
 /* ========================PORTFOLIO====================== */
